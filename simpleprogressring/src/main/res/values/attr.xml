@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SimpleProgressRing">
+        <attr name="simple_progress_ring_line_width" format="dimension" />
+        <attr name="simple_progress_ring_line_progress_color" format="color" />
+        <attr name="simple_progress_ring_line_background_color" format="color" />
+        <attr name="simple_progress_ring_progress" format="integer" />
+        <attr name="simple_progress_ring_max_progress" format="integer" />
+    </declare-styleable>
+</resources>
