@@ -1,5 +1,9 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'com.github.balolam'
+version = '1.0'
 
 android {
     compileSdkVersion 24
@@ -36,4 +40,14 @@ dependencies {
 }
 repositories {
     mavenCentral()
+}
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
+    }
 }

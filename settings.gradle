@@ -1,1 +1,2 @@
 include ':app', ':simpleprogressring'
+rootProject.name = 'simpleprogressring'
